@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webpage</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Athena">
+	<meta name="revised" content="10/24/23">
+	<meta name="description" content="Q2FA1">
+</head>
+<style>
+    #link1{
+        color:black;
+        background-color:#ffa500;
+        text-decoration: none;
+    }
+    
+    #link1:hover{
+        color:purple;
+        background-color:#00008b;
+    }
+    
+    #link1:active{
+        color:white;
+        background-color:#6e71ff;
+    }
+    
+    #link1:visited{
+        color:#e6e6fa;
+        background-color:#ffeb3b;
+        font-family:Comic Sans MS;
+    }
+    
+    #link1:focus{
+        color:white;
+        background-color:#00008b;
+    }
+    
+    #link2:link{
+        color:white;
+        background-color:#d185b0;
+    }
+    
+    #link2:hover{
+        color:#8b0000;
+        background-color:#add8e6;
+        font-family:Sans-serif;
+    }
+    
+    #link2:visited{
+        color:white;
+        background-color:#ffa500;
+    }
+    
+    #link2:focus{
+        color:white;
+        background-color:#0000cd;
+    }
+    
+    div{
+        border: 3px solid black;
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+    }
+    
+    div:target#div1{
+        background-color: #d573a1;
+        color:yellow;
+    }
+    
+    div:target#div2{
+        background-color:#d185b0;
+        color:yellow;
+        border:10px dotted #008000;
+    }
+</style>
+	<body>
+		<h3>Click these buttons below:</h3>
+		<p><a id="link1" href="#div1">Click here to change Div 1</a></p>
+		<p><a id="link2" href="#div2">Click here to change Div 2</a></p>
+			<br>
+			<div id="div1">Div 1</div>
+			<br>
+			<div id="div2">Div 2</div>
+		</body>
+</html>
